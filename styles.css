@@ -9,9 +9,64 @@
   margin: 50px auto;
 }
 
-p {
+/*p {
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+*/
+
+.b_style {
+  margin-top: 50px;
+  padding: 10px;
+  width: 500px;
+  border: 1px sdashed rgb(243, 223, 5)
+}
+
+.static {
+  position: static;
+  border: 3px solid #73ad73;
+  top: 30px;
+  left:30px;
+
+}
+
+.relative{
+  position: relative;
+  border: 3px solid #c6111c;
+  top: 30px;
+  left:30px;
+}
+
+.absolute{
+  position: absolute;
+  border: 3px solid #f3f3f3;
+  top: 80px;
+  right: 0px;
+  width: 200px;
+  height: 100px;
+}
+
+.fixed{
+  position: fixed;
+  border: 3px solid #f3f3f3;
+  bottom: 0px;
+  right: 0px;
+  width: 300px;
+  height: 100px;
+}
+
+.sticky{
+  position: sticky;
+  border: 3px solid #f3f3f3;
+  bottom: 0px;
+  right: 0px;
+  width: 300px;
+  height: 100px;
+}
+
+img{
+  float: right;
+  width: 200px;
 }
